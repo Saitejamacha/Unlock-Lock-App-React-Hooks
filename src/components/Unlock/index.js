@@ -3,7 +3,7 @@ import {useState} from 'react'
 import {AppContainer, Img, Button, Para} from './styledComponents'
 
 const Unlock = () => {
-  const [isBtnClicked, btnClickStatus] = useState(false)
+  const [isBtnClicked, btnClickStatus] = useState(true)
 
   const onClickBtn = () => {
     btnClickStatus(prevState => !prevState)
